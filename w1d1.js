@@ -58,6 +58,3 @@ if(b < 100) {
 } else {
 	console.log("b is not lessthan a 100");
 }
-
-
-
