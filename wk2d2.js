@@ -22,7 +22,7 @@ while(i < 50) {
 	console.log(i);
 }
 
-write a code to create an ASCll art triangle, use a for loop and nested loops
+// write a code to create an ASCll art triangle, use a for loop and nested loops
 
 for(i = 0; i < 6; i++) {
 	console.log("$");
@@ -70,39 +70,39 @@ for(let i = 10; i > 0; i--) {
 	console.log(countDown);
 }
 
-############################ arrays #######################################################
+// ############################ arrays #######################################################
 
-reexamin arrays (a way to store a list of values)
-arrays are donated by: let starseeds = ["auset", "aluna", "fleurbrun"];
-js uses a zero-based indexing system to keep track of array element... 
-ex: the index of 'auset' is 0
-the index of 'aluna' is 1
-console.log(starseeds[0]) to grab the element index from the array
-length property tells us how many items are in the array
-push method: add an element to the end of an array
-ex: starseeds.push(arcturian);
-console.log(starseeds); //should log: ["auset", "aluna", "fleurbrun", "arcturian"];
-pop method: to remove items for the end of an array
-ex: starseeds.pop();
-ex: console.log(starseeds); // should log: ["auset", "aluna", "fleurbrun"];
+// reexamin arrays (a way to store a list of values)
+// arrays are donated by: let starseeds = ["auset", "aluna", "fleurbrun"];
+// js uses a zero-based indexing system to keep track of array element... 
+// ex: the index of 'auset' is 0
+// the index of 'aluna' is 1
+// console.log(starseeds[0]) to grab the element index from the array
+// length property tells us how many items are in the array
+// push method: add an element to the end of an array
+// ex: starseeds.push(arcturian);
+// console.log(starseeds); //should log: ["auset", "aluna", "fleurbrun", "arcturian"];
+// pop method: to remove items for the end of an array
+// ex: starseeds.pop();
+// ex: console.log(starseeds); // should log: ["auset", "aluna", "fleurbrun"];
 
-create a variable called fourthItem and assign it the value of the fourth item
-in the horror array('Ghostface')
-then console.log fourthItem to see the output
+// create a variable called fourthItem and assign it the value of the fourth item
+// in the horror array('Ghostface')
+// then console.log fourthItem to see the output
 
 const horror = ['Freddy', 'Jason', 'Michael', 'Ghostface', 'Chucky']; 
 let fourthItem = ('Ghostface');
 console.log(fourthItem);
 
-use a built-in JS method to add another show to the netflixShows array. 
-then log your updated array to the console. 
-const netflixShows = ["orange is the new black", "black mirror", "chewing gum"];
-netflixShows.push("schits creek");
-console.log(netflixShows);
+// use a built-in JS method to add another show to the netflixShows array. 
+// then log your updated array to the console. 
+// const netflixShows = ["orange is the new black", "black mirror", "chewing gum"];
+// netflixShows.push("schits creek");
+// console.log(netflixShows);
 
-########################## looping through arrays #######################################
-Value(can be access using the indes of its position in the array) ex: myArray[o]
-i(to access each successive element in an array as the loop runs)
+// ########################## looping through arrays #######################################
+// Value(can be access using the indes of its position in the array) ex: myArray[o]
+// i(to access each successive element in an array as the loop runs)
 
 const myArray = ['string1', 'string2', 'string3']; //declare variable myArray
 //and assign it a value of an array containing a few strings
@@ -113,33 +113,53 @@ for(let i = 0; i < myArray.length; i++) { //declare a for loop that run as long 
 	console.log(myArray[i]); //reference the current element of an array myArray[i]
 }
 
-iterate through the synonyms array using a for loop
-pushing a greeting string with the format "have a [synonym] day!" into the greetings array
-use a second for loop to iterate through the greetings and console.log() each greetings. 
+// iterate through the synonyms array using a for loop
+// pushing a greeting string with the format "have a [synonym] day!" into the greetings array
+// use a second for loop to iterate through the greetings and console.log() each greetings. 
+
+// const synonym = ['awesome', 'chilled', 'gnarly'];
+// //iterate the synonyms array using a for loop into the greetings array 
+// const greetings = [];
+// for(let i = 0; i < synonym.length; i++) {
+// //push a greeting string witht the format "have a [] day!"	
+// 	greetings.push(`have a [i] day!`);
+// //console.log() each greetings	
+// 	console.log(synonym);
+// //use a second for loop to iterate through the greetings
+// } 
+// for(let j = 0; j < greetings.length; i++){
+// 	console.log(greetings);
+// }
+
 
 const synonym = ['awesome', 'chilled', 'gnarly'];
-//iterate the synonyms array using a for loop into the greetings array 
 const greetings = [];
 for(let i = 0; i < synonym.length; i++) {
-//push a greeting string witht the format "have a [] day!"	
-	greetings.push(`have a [i] day!`);
-//console.log() each greetings	
-	console.log(synonym);
-//use a second for loop to iterate through the greetings
-} 
+	greetings.push(`have a ${synonym[i]} day!`);
+	// console.log(synonym);
+}
 for(let j = 0; j < greetings.length; i++){
 	console.log(greetings);
 }
 
+var contacts ['matt smith', 'sam davis', 'ashley jones'];
+let dad = "sam davis";
+contacts[0];
 
-const synonym = ['awesome', 'chilled', 'gnarly'];
-const greetings = [];
-for(let i = 0; i < synonym.length; i++) {
-	greetings.push(`have a [i] day!`);
-	console.log(synonym);
-}
-for(let j = 0; j < greetings.length; i++){
-	console.log(greetings);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

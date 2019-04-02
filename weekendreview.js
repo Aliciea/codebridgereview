@@ -80,7 +80,6 @@ function addition(a, b, c){
 
 es6
 let division = (a, b, c) => (a + b + c) / 3;
-// console.log(division(3, 6, 9 / 3));
 console.log(division);
 
 // vs task 25/26 of how es5 & es6 version should be written for task 24... 
@@ -96,17 +95,17 @@ function change(bills, cost = 2.00){
 
 
 //task 34 fizz buzz
-// for(var i = 1; i < 100; i++){	
-// 	if(i % 3 == 0 && i % 5 == 0){
-// 	  console.log("fizzbuzz");
-// 	}else if(i % 3 == 0){ 
-// 	  console.log("fizz");
-// 	}else if(i % 5 == 0){
-// 	  console.log("buzz");
-// 	}else{
-// 	  console.log(i);
-// 	} 
-// }
+for(var i = 1; i < 100; i++){	
+	if(i % 3 == 0 && i % 5 == 0){
+	  console.log("fizzbuzz");
+	}else if(i % 3 == 0){ 
+	  console.log("fizz");
+	}else if(i % 5 == 0){
+	  console.log("buzz");
+	}else{
+	  console.log(i);
+	} 
+}
 
 
 
