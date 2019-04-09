@@ -3,6 +3,8 @@
 <head>
 	<title>Todo List</title>
 	<script type="text/javascript" src="todolist.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
 </head>
 <body>
 	<h1>Todo List</h1>
@@ -13,5 +15,40 @@
 		<li>"quit" Quit App</li>
 	</ul>
 
+	<p id="new_todos"> </p>
+
 </body>
 </html>
+<script type="text/javascript"> 
+
+var todos = ["Buy New Turtle"];
+
+var input = prompt("What would you like to do?");
+
+while(input !== "quit") {
+	//handle input
+	if(input === "list") {
+		todos.forEach(function(todo){
+			console.log(todo);
+		});
+	// console.log(todos);
+	} else if(input === "new") { 
+	//ask for new todo
+	var newTodo = prompt("Enter new todo");
+	//add to todos array
+	todos.push(newTodo);
+}
+	//ask again for new input
+	input = prompt("What would you like to do?");
+	todos.push(input_text);
+	
+}
+console.log("OK, QUIT THE APP");
+
+$(document).ready(function(){
+	var input_text = $("input_text").val()
+	$("new_todos").text(todos)
+});
+	
+</script>
+

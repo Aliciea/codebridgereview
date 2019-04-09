@@ -144,7 +144,7 @@ for(let j = 0; j < greetings.length; i++){
 
 var contacts ['matt smith', 'sam davis', 'ashley jones'];
 let dad = "sam davis";
-contacts[0];
+contacts[0]
 
 
 

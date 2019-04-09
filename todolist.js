@@ -18,6 +18,7 @@ while(input !== "quit") {
 	todos.push(newTodo);
 }
 	//ask again for new input
-	input = prompt("What would you like to do?");	 
+	input = prompt("What would you like to do?");
+	todos.push(input);	
 }
 console.log("OK, QUIT THE APP");
