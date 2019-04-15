@@ -1,17 +1,66 @@
 <!DOCTYPE html>
-
+<html>
 <head>
-<!-- <script src="/assets/jquery.js"></script> -->
-<style>
-</style>
+	<title></title>
 </head>
-
 <body>
-	<div class="prompt"></div>
-<script>
- var prompts = ['Type your name', 'Type an adjective', 'Type a noun'];
-    // alert(prompts.length);
-    // alert(prompts[1]);
-   $ ('.prompt').html(prompts[0]);
-</script>
+	<div>
+		<input id="A" type="text"/>
+		<input id="B" type="text"/>
+		<input type="button" onclick="sum()" value="sum"/>
+		<!-- <button onclick="sum()" value="sum">Click</button> -->
+	</div>
+	<script>
+		//es5
+		// function funcName(params) {
+		// 	return params + 2;
+		// }
+		// funcName(2);
+
+		//es6
+		// var funcNametwo = (params) => params + 2
+		// funcNameTwo(2);
+
+		//es5
+		// var sum;
+		
+		// function theSum(x, y) {
+		// 	return x + y; 
+		// 	sum =30;
+		// };
+		
+		// sum = theSum(30,30);
+		// console.log(sum);
+
+		//es5
+		// function sum(x,y) {
+		// 	var z;
+		// 	z = x + y;
+		// 	return z;
+		// };
+		// console.log(sum(3,5));
+
+		//es6
+		// var sumTwo = (a,b) => a + b;
+		// console.log(sumTwo(4,6));
+
+		var A;
+
+		function setValues() {
+
+		}
+		A = Number(document.getElementById("A").value);
+		B = Number(document.getElementById("B").value);
+
+		var A,B,result;
+
+		function sum() {
+			setValues();
+			result = A + B;
+			alert("the sum is equal to " + result);
+		}
+
+	</script>
+
 </body>
+</html>
