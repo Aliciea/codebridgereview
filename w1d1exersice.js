@@ -52,48 +52,51 @@ for ( let i = 1; i <= 20; i++) {
 		console.log(`${i} is not greater than 10`);
 	}
 }
-//pracetice (ask Kai about arrays)
-// var myNumber = 8;
-// myNumber += 3;
-// myNumber -= 5;
-// console.log(myNumber);
+pracetice (ask Kai about arrays)
+var myNumber = 8;
+myNumber += 3;
+myNumber -= 5;
+console.log(myNumber);
 
-//GA Fundamentals Unit 8, Array exercise 
+GA Fundamentals Unit 8, Array exercise 
 
-// var contacts ["Matt Smith", "Sam Davis", "Ashley Jones"];
+var contacts ["Matt Smith", "Sam Davis", "Ashley Jones"];
 
-// var dad = "Sam Davis";
+var dad = "Sam Davis";
 
-// contacts[0] = "Mark Williams";
-// contacts.pop("Ashley Jones");
-// contacts.push("Michele Johnson");
+contacts[0] = "Mark Williams";
+contacts.pop("Ashley Jones");
+contacts.push("Michele Johnson");
 
-// var numberOfContacts = 'contacts.length[3]';
+var numberOfContacts = 'contacts.length[3]';
 
-//codesmith arrays
-//arrays examing elements
-//note: we'er using const because the vaule horror does not change
+codesmith arrays
+arrays examing elements
+note: we'er using const because the vaule horror does not change
 const horror = ['Freddy', 'Jason', 'Michael', 'Ghostface', 'Chucky'];
-//create a variable called fourthItem and assign it the value of the fourth item in the horror array
-//then console.log fourthItem to see the output.
+create a variable called fourthItem and assign it the value of the fourth item in the horror array
+then console.log fourthItem to see the output.
 let fourthItem = ('Ghostface');
 console.log(fourthItem);
 
-//arrays adding elements
+arrays adding elements
 const netflixshows = ["orange is the New Black", "Black Mirror", "chewing Gum"];
-//add another show to the netflix array
+add another show to the netflix array
 netflixshows = ("pizza");
 console.log(netflixshows);
 
-//for loops - fundamentals 
+for loops - fundamentals 
 let countDown = 10;
-//create a for loop that starts at 10 and ends at zero 
+create a for loop that starts at 10 and ends at zero 
 for (let i = 10; i >=0; i--);
 countDown = i;
 console.log(countDown);
 
-//for loops and arrays
+for loops and arrays
 const synonyms = ['fantastic','wonderful', 'great'];
-//using a for loop, push a greeting string with the format Have [synonyms] day
+using a for loop, push a greeting string with the format Have [synonyms] day
 for (let i = 0; i < synonyms.[day])
+
+for(let i = 5; i < 406; i++);
+	console.log(i * 3);
 

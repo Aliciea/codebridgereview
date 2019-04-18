@@ -47,30 +47,51 @@
 
 //use double array and function to compare grades
 
-let possibleGrades = [
-	['A', 90],
-	['B', 80],
-	['C', 70],
-	['D', 60],
-	['F', 50],
-]
+// let possibleGrades = [
+// 	['A', 90],
+// 	['B', 80],
+// 	['C', 70],
+// 	['D', 60],
+// 	['F', 50],
+// ]
 
-// PossibleGrades.A
-// PossibleGrades["A"]
-console.log(possibleGrades[0].length);
+// // PossibleGrades.A
+// // PossibleGrades["A"]
+// console.log(possibleGrades[0].length);
 
-function gradeCalculator(possibleGrades = [], grade) {
-	for(let i = 0; i < possibleGrades.length; i++) {
-		if(grade >= possibleGrades[i][1]) {
-			return possibleGrades[i][0];
-		}
+// function gradeCalculator(possibleGrades = [], grade) {
+// 	for(let i = 0; i < possibleGrades.length; i++) {
+// 		if(grade >= possibleGrades[i][1]) {
+// 			return possibleGrades[i][0];
+// 		}
 
 
+// 	}
+// 	return "F";
+
+
+// }
+
+// let arg = process.argv[2];
+// console.log(arg);
+// console.log(gradeCalculator(possibleGrades, arg));
+
+let isPrime = "";
+let isEven = "";
+
+for( let i = 1; i < 21; i ++){
+	if((i > 1 && i % 2 > 0 && i % 3 > 0) || (i === 2 || i === 3)) {
+		isPrime = "isPrime";
+
+	}else{
+		isPrime = "";
 	}
-	return "F";
-
-
+	if(i % 2 === 0){
+		isEven = "isEven";
+	}else{
+		isEven = "isOdd";
+	}
+	console.log(`i = ${i} ${isPrime} ${isEven}`);
 }
 
-console.log(gradeCalculator(possibleGrades, 66));
 
