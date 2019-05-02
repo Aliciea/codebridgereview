@@ -64,5 +64,7 @@ for(i = 0; i < numbers.length; i++){
 
 
 
+var baseballTeams = ['dodgers', 'giants', 'mets', 'yankees', 'astros'];
+baseballTeams
 
 
